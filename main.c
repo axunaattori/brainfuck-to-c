@@ -21,7 +21,7 @@ void switchcase(char character, FILE *outputFile)
       fprintf(outputFile, "(*ptr)--;\n");
       break;
     case '[':
-      fprintf(outputFile, "while ((*ptr) != 0){\n");
+      fprintf(outputFile, "while (*ptr){\n");
       break;
     case ']':
       fprintf(outputFile, "}\n");
