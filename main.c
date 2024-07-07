@@ -30,7 +30,7 @@ void switchcase(char character, FILE *outputFile)
       fprintf(outputFile, "putchar(*ptr);\n");
       break;
     case ',':
-      fprintf(outputFile, "fgets(ptr, 1, stdin);\n");
+      fprintf(outputFile, "scanf(\"%%c\", (char *)ptr); \n");
       break;
   }
 }
