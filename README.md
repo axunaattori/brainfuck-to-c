@@ -1,2 +1,2 @@
 translates brainfuck (https://esolangs.org/wiki/Brainfuck) to C.
-usage: <compiled name> <file> <output name>
+usage: bf2c (file) (output name)
